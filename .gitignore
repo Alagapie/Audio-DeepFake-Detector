@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+.venv/
+venv/
+env/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project generated
+weights/*.onnx
+weights/*.pt
+weights/*.pkl
+weights/*.zip
+weights/*.npy
+!weights/.gitkeep
+
+# Logs
+*.log
+logs/
+
+# Test artifacts
+.pytest_cache/
+test_output/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# ONNX runtime cache
+*.cache/
